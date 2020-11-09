@@ -76,3 +76,7 @@ def test_format_date_valid():
 def test_format_date_invalid(invalid_date):
     res = format_date(invalid_date)
     assert res is None
+
+
+def test_fail():
+    assert False
